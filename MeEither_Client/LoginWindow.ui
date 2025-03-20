@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LoginWindow</class>
+ <widget class="QWidget" name="LoginWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>260</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MeEither - 로그인</string>
+  </property>
+  <property name="styleSheet">
+   <string>
+    QWidget {
+        background-color: #f0f8ff;
+        font-family: Arial, sans-serif;
+    }
+    QPushButton {
+        background-color: #87ceeb;
+        border: 1px solid #4682b4;
+        border-radius: 8px;
+        color: white;
+        font-weight: bold;
+        padding: 5px 10px;
+    }
+    QPushButton:hover {
+        background-color: #4682b4;
+    }
+    QLineEdit {
+        border: 1px solid #87ceeb;
+        border-radius: 5px;
+        padding: 5px;
+    }
+   </string>
+  </property>
+  <widget class="QLabel" name="headerLabel">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>20</y>
+     <width>200</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string>
+     QLabel {
+         font-size: 24px;
+         font-weight: bold;
+         color: #4682b4;
+     }
+    </string>
+   </property>
+   <property name="text">
+    <string>MeEither</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usernameLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>80</y>
+     <width>200</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>아이디 입력</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="passwordLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>120</y>
+     <width>200</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::EchoMode::Password</enum>
+   </property>
+   <property name="placeholderText">
+    <string>비밀번호 입력</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="loginButton">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>160</y>
+     <width>90</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>로그인</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="signUpButton">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>160</y>
+     <width>90</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>회원가입</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

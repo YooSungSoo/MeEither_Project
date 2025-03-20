@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SignUpWindow</class>
+ <widget class="QWidget" name="SignUpWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>471</width>
+    <height>724</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>회원가입</string>
+  </property>
+  <property name="styleSheet">
+   <string>
+    QWidget {
+        background-color: #f9f9f9;
+        font-family: Arial, sans-serif;
+    }
+    QPushButton {
+        background-color: #87ceeb;
+        border: 1px solid #4682b4;
+        border-radius: 8px;
+        color: white;
+        font-weight: bold;
+        padding: 5px 10px;
+    }
+    QPushButton:hover {
+        background-color: #4682b4;
+    }
+    QLineEdit {
+        border: 1px solid #87ceeb;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    QLabel {
+        font-size: 12px;
+        color: #666666;
+    }
+   </string>
+  </property>
+  <widget class="QLabel" name="headerLabel">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>20</y>
+     <width>250</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string>
+     QLabel {
+         font-size: 24px;
+         font-weight: bold;
+         color: #4682b4;
+     }
+    </string>
+   </property>
+   <property name="text">
+    <string>회원가입</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="usernameLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>80</y>
+     <width>250</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>아이디 입력</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="conform">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>80</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>중복확인</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="passwordLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>130</y>
+     <width>250</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::EchoMode::Password</enum>
+   </property>
+   <property name="placeholderText">
+    <string>비밀번호 입력</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="nickName">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>180</y>
+     <width>250</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>닉네임 입력</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="birthDateEdit">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>230</y>
+     <width>250</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="genderGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>280</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>성별</string>
+   </property>
+   <widget class="QRadioButton" name="checkBoxM">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>100</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>남자</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="checkBoxF">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>20</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>여자</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="signUpButton">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>670</y>
+     <width>100</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>회원가입</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="preferContry">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>360</y>
+     <width>311</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>여행 선호 지역</string>
+   </property>
+   <widget class="QCheckBox" name="northEU">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>64</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>북유럽</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="westEU">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>20</y>
+      <width>64</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>서유럽</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="centralAsia">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>91</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>중앙 아시아</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="eastsouthAsia">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>50</y>
+      <width>91</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>동남 아시아</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="eastEU">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>20</y>
+      <width>64</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>동유럽</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="northAmerica">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>101</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>북아메리카</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="southAmerica">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>80</y>
+      <width>91</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>남아메리카</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="africa">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>80</y>
+      <width>81</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>아프리카</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="oseania">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>91</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>오세아니아</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="arctic">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>110</y>
+      <width>64</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>남극</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="antArctic">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>110</y>
+      <width>64</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>북극</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="eastAsia">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>50</y>
+      <width>81</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>동아시아</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="travelStyle">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>510</y>
+     <width>311</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>여행 스타일</string>
+   </property>
+   <widget class="QCheckBox" name="rest">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>91</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>휴양</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cityRest">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>30</y>
+      <width>91</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>도심 휴식</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="shopping">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>30</y>
+      <width>71</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>쇼핑</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="foodSearch">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>91</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>맛집 탐방</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="activity">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>60</y>
+      <width>91</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>액티비티</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="cultureLife">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>60</y>
+      <width>71</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>문화생활</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="leisurely">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>91</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>여유롭게</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="busy">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>90</y>
+      <width>91</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>바쁘게</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="trifity">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>90</y>
+      <width>61</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>알뜰하게</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="luxury">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>91</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>사치스럽게</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="sports">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>120</y>
+      <width>91</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>스포츠</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="nature">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>120</y>
+      <width>71</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>자연</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="MBTI">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>280</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>MBTI</string>
+   </property>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>INFP</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>INFJ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>INTP</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>INTJ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ISFP</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ISFJ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ISTP</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ISTJ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ENFP</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ENFJ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ENTP</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ENTJ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ESFP</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ESFJ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ESTP</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ESTJ</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

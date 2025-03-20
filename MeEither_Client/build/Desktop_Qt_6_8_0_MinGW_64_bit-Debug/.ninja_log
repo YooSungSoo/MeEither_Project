@@ -1,0 +1,23 @@
+# ninja log v6
+24	641	7549152165790164	C:/Users/elcan/Desktop/MeEither_Client/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/ChatClient_autogen/mocs_compilation.cpp	31f1a5f9fb12fca9
+38	1006	7558906042727616	build.ninja	6d712fe2f9ec4bcf
+24	641	7549152165790164	ChatClient_autogen/timestamp	31f1a5f9fb12fca9
+48	62	7558905976366169	clean	577b940aee94fbd7
+24	641	7549152165790164	ChatClient_autogen/mocs_compilation.cpp	31f1a5f9fb12fca9
+1176	4257	7558905988938959	CMakeFiles/MeEither_Client.dir/ChatRoomList.cpp.obj	2efb8277142bd486
+24	641	7549152165790164	C:/Users/elcan/Desktop/MeEither_Client/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/ChatClient_autogen/timestamp	31f1a5f9fb12fca9
+2533	2661	7549152185545689	ChatClient.exe	41494b676633afdd
+8	48	7558905975907846	CMakeFiles/clean.additional	baedbe210acaa455
+27	1151	7558905987754852	MeEither_Client_autogen/timestamp	70c1404051570242
+27	1151	7558905987754852	MeEither_Client_autogen/mocs_compilation.cpp	70c1404051570242
+1152	4101	7558905988702948	CMakeFiles/MeEither_Client.dir/MeEither_Client_autogen/mocs_compilation.cpp.obj	3593599046f9a620
+27	1151	7558905987754852	C:/Users/elcan/Desktop/MeEither_Client/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MeEither_Client_autogen/timestamp	70c1404051570242
+27	1151	7558905987754852	C:/Users/elcan/Desktop/MeEither_Client/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MeEither_Client_autogen/mocs_compilation.cpp	70c1404051570242
+1165	3766	7558905988828741	CMakeFiles/MeEither_Client.dir/main.cpp.obj	58ba43179df0759d
+1156	3158	7558905988746346	CMakeFiles/MeEither_Client.dir/ChatClient.cpp.obj	feb0cb771ca9bcaa
+1161	4017	7558905988787013	CMakeFiles/MeEither_Client.dir/LoginWindow.cpp.obj	40e358bf4affa4d7
+4257	4638	7558906019757504	MeEither_Client.exe	db348521986533a7
+1169	4067	7558905988863104	CMakeFiles/MeEither_Client.dir/SignUpWindow.cpp.obj	aaf45dbe9ccc5056
+1172	3557	7558905988895569	CMakeFiles/MeEither_Client.dir/ChooseLand.cpp.obj	c892b5027ca5b35a
+1180	4130	7558905988978871	CMakeFiles/MeEither_Client.dir/ChatWindow.cpp.obj	b71e9ed652458880
+1185	3773	7558905989021399	CMakeFiles/MeEither_Client.dir/ClientProfile.cpp.obj	f44d3ce821dea66b

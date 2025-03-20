@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChooseLand</class>
+ <widget class="QWidget" name="ChooseLand">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>770</width>
+    <height>395</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>대륙 선택</string>
+  </property>
+  <property name="styleSheet">
+   <string>
+    QWidget {
+        background-color: #f0f8ff;
+        font-family: Arial, sans-serif;
+    }
+    QPushButton {
+        background-color: #87ceeb;
+        border: 1px solid #4682b4;
+        border-radius: 8px;
+        color: white;
+        font-weight: bold;
+        font-size: 16px; /* 글자 크기 증가 */
+        padding: 5px 10px;
+    }
+    QPushButton:hover {
+        background-color: #4682b4;
+    }
+    QLabel {
+        font-size: 18px; /* 헤더 글자 크기 증가 */
+        font-weight: bold;
+        color: #4682b4;
+    }
+   </string>
+  </property>
+  <widget class="QLabel" name="headerLabel">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>20</y>
+     <width>471</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>동행을 찾고자 하는 대륙을 선택하세요</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QWidget" name="buttonContainer" native="true">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>750</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <widget class="QPushButton" name="northEuropeButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>북유럽</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="westEuropeButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>20</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>서유럽</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="eastEuropeButton">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>20</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>동유럽</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="eurasiaButton">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>20</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>유라시아</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="centralAsiaButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>100</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>중앙아시아</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="eastAsiaButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>100</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>동아시아</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="southEastAsiaButton">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>100</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>동남아시아</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="oceaniaButton">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>100</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>오세아니아</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="northAmericaButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>180</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>북아메리카</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="southAmericaButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>180</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>남아메리카</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="antarcticaButton">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>180</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>남극</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="arcticButton">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>180</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>북극</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

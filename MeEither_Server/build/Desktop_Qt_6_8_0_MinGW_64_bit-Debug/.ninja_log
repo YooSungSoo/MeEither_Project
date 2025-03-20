@@ -1,0 +1,13 @@
+# ninja log v6
+24	689	7558905819913000	MeEither_Server_autogen/timestamp	b91da9af708bf0d4
+24	689	7558905819913000	C:/Users/elcan/Desktop/MeEither_Server/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MeEither_Server_autogen/mocs_compilation.cpp	b91da9af708bf0d4
+24	689	7558905819913000	MeEither_Server_autogen/mocs_compilation.cpp	b91da9af708bf0d4
+24	689	7558905819913000	C:/Users/elcan/Desktop/MeEither_Server/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/MeEither_Server_autogen/timestamp	b91da9af708bf0d4
+690	2522	7558905820733345	CMakeFiles/MeEither_Server.dir/MeEither_Server_autogen/mocs_compilation.cpp.obj	8f2bf69d246f7088
+3307	3665	7558905846901721	MeEither_Server.exe	bcc6f126c8702272
+701	2718	7558905820842055	CMakeFiles/MeEither_Server.dir/DatabaseManager.cpp.obj	190be74c533abc86
+694	3307	7558905820768144	CMakeFiles/MeEither_Server.dir/ChatServer.cpp.obj	dab778fade2b9bd9
+698	2520	7558905820801590	CMakeFiles/MeEither_Server.dir/main.cpp.obj	3563d9fa59965f4d
+31	610	7558905894424603	build.ninja	467a2a411d45e681
+6	31	7558905812684338	CMakeFiles/clean.additional	baedbe210acaa455
+32	43	7558905813008389	clean	577b940aee94fbd7
