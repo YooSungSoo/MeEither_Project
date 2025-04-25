@@ -20,6 +20,11 @@
 
 ---
 
+## 🔧시스템 아키텍쳐
+
+![12](https://github.com/user-attachments/assets/0f9a8115-da62-4196-a83d-53eeaaba315e)
+
+---
 ## ✨ 주요 기능
 
 ### ✅ 서버 (MeEither_Server)
