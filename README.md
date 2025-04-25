@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="https://github.com/YooSungSoo/MeEither_Project/raw/main/assets/MeEither_Logo.jpg" width="400"/>
+  <img src="https://raw.githubusercontent.com/YooSungSoo/MeEither_Project/master/assets/MeEither_Logo.jpg" width="400"/>
 </p>
-
 
 # 💬 MeEither – Qt 기반 멀티스레드 채팅 프로그램
 
