@@ -27,7 +27,7 @@
 ## 🔧 시스템 아키텍처
 
 <p align="center">
-  <img src="https://github.com/YooSungSoo/MeEither_Project/raw/main/assets/architecture_diagram.jpg" width="600"/>
+    <img src="https://raw.githubusercontent.com/YooSungSoo/MeEither_Project/master/assets/architecture_diagram.jpg" width="600"/>
 </p>
 
 ---
