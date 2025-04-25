@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/YooSungSoo/MeEither_Project/master/assets/MeEither_Logo.jpg" width="400"/>
 </p>
 
-# 💬MeEither – Qt 기반 멀티스레드 채팅 프로그램
+## 💬MeEither – Qt 기반 멀티스레드 채팅 프로그램
 
 > **"Qt와 C++로 구현한 실시간 채팅 애플리케이션"**  
 > `MeEither`는 C++ 및 Qt 프레임워크를 활용하여 제작된 TCP 기반 채팅 프로그램입니다.  
