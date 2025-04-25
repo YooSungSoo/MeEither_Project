@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://github.com/YooSungSoo/MeEither_Project/assets/MeEither_Logo.png" width="400"/>
+  <img src="assets/MeEither_Logo.png" width="400"/>
 </p>
+
 
 # 💬 MeEither – Qt 기반 멀티스레드 채팅 프로그램
 
@@ -27,7 +28,7 @@
 ## 🔧 시스템 아키텍처
 
 <p align="center">
-  <img src="https://github.com/YooSungSoo/MeEither_Project/assets/architecture_diagram.png" width="600"/>
+  <img src="assets/architecture_diagram.png" width="600"/>
 </p>
 
 ---
