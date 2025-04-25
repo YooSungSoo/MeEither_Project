@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/YooSungSoo/MeEither_Project/raw/main/assets/MeEither_Logo.jpg.jpg" width="400"/>
+  <img src="https://github.com/YooSungSoo/MeEither_Project/raw/main/assets/MeEither_Logo.jpg" width="400"/>
 </p>
 
 
